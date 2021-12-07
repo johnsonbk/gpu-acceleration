@@ -30,3 +30,10 @@ Hackathon <https://www.gpuhackathons.org/event/nersc-december-gpu-hackathon-2021
 
    /dart/compiling
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Notes
+
+   /notes/zero-to-gpu-hero
+
