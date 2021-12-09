@@ -31,6 +31,15 @@ The working modules commands are:
    experiencing on Casper is merely because the 20.11 release of ``nvhpc`` is
    old.
 
+Interactive job
+===============
+
+This command works for requesting an interactive job on Casper:
+
+.. code-block::
+
+   execcasper -A P86850054 -q gpudev -l select=1:ncpus=8:ngpus=4:mpiprocs=8:mem=200GB -l walltime=00:30:00
+
 Job script
 ==========
 

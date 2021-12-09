@@ -16,6 +16,7 @@ Hackathon <https://www.gpuhackathons.org/event/nersc-december-gpu-hackathon-2021
    
    /machines/perlmutter
    /machines/casper
+   /machines/ascent
 
 .. toctree::
    :maxdepth: 2
