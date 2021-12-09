@@ -12,16 +12,10 @@ Hackathon <https://www.gpuhackathons.org/event/nersc-december-gpu-hackathon-2021
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Perlmutter
+   :caption: Machines
    
-   /perlmutter/environment
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Casper
-   
-   /casper/environment
+   /machines/perlmutter
+   /machines/casper
 
 .. toctree::
    :maxdepth: 2
@@ -36,4 +30,5 @@ Hackathon <https://www.gpuhackathons.org/event/nersc-december-gpu-hackathon-2021
    :caption: Notes
 
    /notes/zero-to-gpu-hero
+   /notes/nsight
 
