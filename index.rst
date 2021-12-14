@@ -32,4 +32,4 @@ Hackathon <https://www.gpuhackathons.org/event/nersc-december-gpu-hackathon-2021
 
    /notes/zero-to-gpu-hero
    /notes/nsight
-
+   /notes/nvtx
