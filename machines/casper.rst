@@ -40,6 +40,17 @@ This command works for requesting an interactive job on Casper:
 
    execcasper -A P86850054 -q gpudev -l select=1:ncpus=8:ngpus=4:mpiprocs=8:mem=200GB -l walltime=00:30:00
 
+
+Interactive build
+=================
+
+.. code-block::
+
+   execcasper -A P86850054 -q gpudev -l select=1:ncpus=8:ngpus=4:mpiprocs=8:mem=200GB -l walltime=00:30:00
+   cd /glade/work/johnsonb/git/DART-hackathon21/hackathon/get_close_obs/work/
+   ./build_testcode.sh 
+   ./test_get_close_obs
+
 Job script
 ==========
 
