@@ -19,7 +19,7 @@ The working modules commands are:
 
    module purge
    module load ncarenv/1.3
-   module load nvhpc/20.11
+   module load nvhpc/21.9
    module load ncarcompilers/0.5.0
    module load openmpi/4.1.1
    module load netcdf
@@ -27,9 +27,8 @@ The working modules commands are:
 
 .. note::
 
-   There is some murmuring among the mentors that some of the difficulty we're
-   experiencing on Casper is merely because the 20.11 release of ``nvhpc`` is
-   old.
+   The default ``nvhpc`` module on Casper is ``20.11``. It doesn't support 
+   NVTX, so use ``21.9`` instead.
 
 Interactive job
 ===============
