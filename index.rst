@@ -35,9 +35,9 @@ Group photos
    :hidden:
    :caption: Machines
    
-   /machines/perlmutter
    /machines/casper
    /machines/ascent
+   /machines/perlmutter
 
 .. toctree::
    :maxdepth: 2
